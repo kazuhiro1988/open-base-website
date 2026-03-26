@@ -50,9 +50,14 @@
     setTimeout(callback, 500);
   }
 
-  // 戻るボタンでbfcacheから復元された場合もオーバーレイを消す
+  // 戻るボタン対策: bfcacheから復元された際にオーバーレイを即座に消す
   window.addEventListener('pageshow', (e) => {
-    if (e.persisted) fadeOutTransition();
+    if (e.persisted && pageTransition) {
+      pageTransition.style.transition = 'none';
+      pageTransition.classList.add('out');
+      pageTransition.offsetHeight; // reflow強制
+      pageTransition.style.transition = '';
+    }
   });
 
   document.addEventListener('DOMContentLoaded', () => {
