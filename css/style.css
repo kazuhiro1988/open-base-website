@@ -3385,7 +3385,7 @@ footer {
 
 .takeover-quote {
   font-family: 'LINE Seed JP', sans-serif;
-  font-size: clamp(1.28rem, 6vw, 5.2rem);
+  font-size: clamp(1.28rem, 5vw, 5.2rem);
   font-weight: 800;
   line-height: 1.45;
   color: var(--text-primary);
@@ -3978,6 +3978,13 @@ footer {
   opacity: 1;
 }
 
+
+/* ---- Takeover: iPhone-class mobile fix ---- */
+@media (max-width: 430px) {
+  .takeover-quote {
+    font-size: 1.15rem;
+  }
+}
 
 /* ---- Stats Strip Responsive ---- */
 @media (max-width: 768px) {
