@@ -3979,10 +3979,13 @@ footer {
 }
 
 
-/* ---- Takeover: iPhone-class mobile fix ---- */
+/* ---- Mobile font fixes (iPhone 13 = 390px) ---- */
 @media (max-width: 430px) {
   .takeover-quote {
     font-size: 1.15rem;
+  }
+  .city-vista-heading {
+    font-size: 1.9rem;
   }
 }
 
