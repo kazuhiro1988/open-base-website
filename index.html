@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open base 合同会社 — 採用コンサルティング・生成AI活用支援</title>
+  <meta name="description" content="Open base 合同会社は、採用コンサルティングと生成AI活用支援で企業の成長をサポートします。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Noto+Sans+JP:wght@300;400;500&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="scroll-progress"></div>
+  <div id="page-transition">
+    <img src="Gemini_Generated_Image_zf1c2yzf1c2yzf1c.png" alt="Open base" class="pt-logo-img" />
+    <div class="pt-bar"><div class="pt-bar-fill"></div></div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="Gemini_Generated_Image_zf1c2yzf1c2yzf1c.png" alt="Open base" class="nav-logo-img" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">ホーム</a></li>
+      <li class="has-dropdown">
+        <a href="#">サービス ▾</a>
+        <ul class="nav-dropdown">
+          <li><a href="service-recruitment.html">採用コンサルティング</a></li>
+          <li><a href="service-ai.html">生成AI活用支援</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">会社概要</a></li>
+      <li><a href="contact.html" class="nav-cta-btn">お問い合わせ</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-nav-link">ホーム</a>
+    <a href="service-recruitment.html" class="mobile-nav-link">採用コンサルティング</a>
+    <a href="service-ai.html" class="mobile-nav-link">生成AI活用支援</a>
+    <a href="about.html" class="mobile-nav-link">会社概要</a>
+    <a href="contact.html" class="mobile-nav-link cta-link">お問い合わせ</a>
+  </div>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero">
+    <video class="hero-bg-video" autoplay muted loop playsinline preload="metadata" poster="Gemini_Generated_Image_kitnt3kitnt3kitn.png">
+      <source src="12686777_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-deco" aria-hidden="true">
+      <div class="hero-deco-grid"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge" style="animation:fadeInDown 0.7s ease 0.15s both">採用コンサルティング ／ 生成AI活用支援</div>
+      <h1 class="hero-title">
+        <span class="line-plain">
+          <span class="line-inner">人と技術で、</span>
+        </span>
+        <span class="line-gradient">
+          <span class="line-inner">未来を拓く。</span>
+        </span>
+      </h1>
+      <p class="hero-desc" style="animation:fadeInUp 0.8s cubic-bezier(0.16,1,0.3,1) 0.65s both">
+        優秀な人材を採用し、AIで組織を加速させる——<br>
+        二つの専門知識を持つパートナーが、<br>
+        貴社の成長課題に正面から向き合います。
+      </p>
+      <div class="hero-actions" style="animation:fadeInUp 0.8s cubic-bezier(0.16,1,0.3,1) 0.78s both">
+        <a href="contact.html" class="btn-primary">無料相談を申し込む →</a>
+        <a href="#services" class="btn-ghost">サービスを見る</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATS
+       ============================================================ -->
+  <section id="stats-band">
+    <div class="bento-grid">
+      <div class="bento-cell bento-a reveal">
+        <div class="bento-eyebrow">支援実績</div>
+        <div class="bento-figure">
+          <span class="stat-num" data-target="200" data-suffix="+">200+</span>
+          <span class="bento-unit">社</span>
+        </div>
+        <p class="bento-note">スタートアップから上場企業まで、幅広い規模・業種に対応</p>
+      </div>
+      <div class="bento-cell bento-b reveal reveal-delay-1">
+        <div class="bento-eyebrow">継続率</div>
+        <div class="bento-figure">
+          <span class="stat-num" data-target="95" data-suffix="%">95%</span>
+        </div>
+      </div>
+      <div class="bento-cell bento-d reveal reveal-delay-2">
+        <div class="bento-eyebrow">採用期間短縮</div>
+        <div class="bento-figure">
+          <span class="stat-num" data-target="60" data-suffix="日">60日</span>
+        </div>
+      </div>
+      <div class="bento-cell bento-c reveal reveal-delay-1">
+        <div class="bento-qmark">&ldquo;</div>
+        <p class="bento-qtext">採用の型が会社に残ったことが何より大きい。シリーズA直後に年間20名採用を達成できました。</p>
+        <div class="bento-qsrc">— スタートアップ（シリーズA）</div>
+      </div>
+      <div class="bento-cell bento-e reveal">
+        <div class="bento-e-wrap">
+          <div>
+            <div class="bento-eyebrow">AI導入後の業務効率</div>
+            <div class="bento-figure bento-figure-blue">
+              <span class="stat-num" data-target="3" data-suffix="倍">3倍</span>
+            </div>
+          </div>
+          <div class="bento-tags-row">
+            <span>採用戦略</span><span>生成AI活用</span><span>業務改革</span><span>組織設計</span><span>ROI改善</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CITY VISTA
+       ============================================================ -->
+  <section class="city-vista" aria-label="都市夜景ビジュアル">
+    <video class="city-vista-bg-video" autoplay muted loop playsinline preload="metadata">
+      <source src="4062946-hd_1280_720_24fps.mp4" type="video/mp4">
+    </video>
+    <div class="city-vista-inner">
+      <div class="city-vista-label reveal">Our Stage</div>
+      <h2 class="city-vista-heading" data-lines>
+        <span class="line-wrap"><span class="line-inner">ビジネスの交差点で、</span></span>
+        <span class="line-wrap"><span class="line-inner">最高の人材と</span></span>
+        <span class="line-wrap"><span class="line-inner">最先端のAIを。</span></span>
+      </h2>
+      <p class="city-vista-sub reveal">都市が夜も休まず動き続けるように、あなたのビジネスも止まることなく成長し続けるための戦略と実行力を、Open baseが提供します。</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MARQUEE
+       ============================================================ -->
+  <div class="marquee-band">
+    <div class="marquee-track">
+      <div class="marquee-item">採用戦略<span class="marquee-sep"></span></div>
+      <div class="marquee-item">生成AI活用<span class="marquee-sep"></span></div>
+      <div class="marquee-item">組織設計<span class="marquee-sep"></span></div>
+      <div class="marquee-item">人材評価<span class="marquee-sep"></span></div>
+      <div class="marquee-item">ChatGPT<span class="marquee-sep"></span></div>
+      <div class="marquee-item">Claude<span class="marquee-sep"></span></div>
+      <div class="marquee-item">採用ブランディング<span class="marquee-sep"></span></div>
+      <div class="marquee-item">業務効率化<span class="marquee-sep"></span></div>
+      <div class="marquee-item">プロンプト設計<span class="marquee-sep"></span></div>
+      <div class="marquee-item">ROI改善<span class="marquee-sep"></span></div>
+      <div class="marquee-item">AI研修<span class="marquee-sep"></span></div>
+      <div class="marquee-item">定着率向上<span class="marquee-sep"></span></div>
+      <div class="marquee-item">採用戦略<span class="marquee-sep"></span></div>
+      <div class="marquee-item">生成AI活用<span class="marquee-sep"></span></div>
+      <div class="marquee-item">組織設計<span class="marquee-sep"></span></div>
+      <div class="marquee-item">人材評価<span class="marquee-sep"></span></div>
+      <div class="marquee-item">ChatGPT<span class="marquee-sep"></span></div>
+      <div class="marquee-item">Claude<span class="marquee-sep"></span></div>
+      <div class="marquee-item">採用ブランディング<span class="marquee-sep"></span></div>
+      <div class="marquee-item">業務効率化<span class="marquee-sep"></span></div>
+      <div class="marquee-item">プロンプト設計<span class="marquee-sep"></span></div>
+      <div class="marquee-item">ROI改善<span class="marquee-sep"></span></div>
+      <div class="marquee-item">AI研修<span class="marquee-sep"></span></div>
+      <div class="marquee-item">定着率向上<span class="marquee-sep"></span></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       DUAL TICKER BAND
+       ============================================================ -->
+  <div class="ticker-band">
+    <div class="ticker-row">
+      <div class="ticker-track fwd">
+        <span class="ticker-item">採用コンサルティング</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">選考プロセス設計</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">採用ブランディング</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">人材評価</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">採用戦略立案</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">定着率向上</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">組織設計</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">内定者フォロー</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">採用コンサルティング</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">選考プロセス設計</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">採用ブランディング</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">人材評価</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">採用戦略立案</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">定着率向上</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">組織設計</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">内定者フォロー</span><span class="ticker-dot">◆</span>
+      </div>
+    </div>
+    <div class="ticker-row">
+      <div class="ticker-track rev">
+        <span class="ticker-item">Generative AI</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">ChatGPT</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Claude</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Prompt Engineering</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">AI Strategy</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Gemini</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Workflow Automation</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">ROI Improvement</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Generative AI</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">ChatGPT</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Claude</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Prompt Engineering</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">AI Strategy</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Gemini</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">Workflow Automation</span><span class="ticker-dot">◆</span>
+        <span class="ticker-item">ROI Improvement</span><span class="ticker-dot">◆</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       PHILOSOPHY / TAKEOVER (NEW)
+       ============================================================ -->
+  <section class="takeover-section">
+    <div class="takeover-bg" aria-hidden="true">
+      <div class="takeover-bg-text">OPEN BASE</div>
+    </div>
+    <div class="takeover-inner" data-lines>
+      <div class="takeover-sub fade-in-on-visible" style="transition-delay:0s">Philosophy</div>
+      <p class="takeover-quote">
+        <span class="line-wrap"><span class="line-inner">採用は<span class="em">戦略</span>であり、</span></span>
+        <span class="line-wrap"><span class="line-inner">AIは<span class="em">武器</span>である。</span></span>
+        <span class="line-wrap"><span class="line-inner">その両方を持つ企業だけが</span></span>
+        <span class="line-wrap"><span class="line-inner">次の時代を制する。</span></span>
+      </p>
+      <div class="takeover-sig fade-in-on-visible">— Open base 合同会社</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATEMENT
+       ============================================================ -->
+  <section class="statement-section">
+    <div class="statement-inner">
+      <div data-lines>
+        <div class="statement-label fade-in-on-visible">Our Statement</div>
+        <h2 class="statement-heading">
+          <span class="line-wrap"><span class="line-inner">人と技術で、</span></span>
+          <span class="line-wrap"><span class="line-inner">ビジネスの</span></span>
+          <span class="line-wrap"><span class="line-inner"><span class="em">可能性を</span></span></span>
+          <span class="line-wrap"><span class="line-inner"><span class="em">解き放つ。</span></span></span>
+        </h2>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="statement-divider"></div>
+        <div class="statement-body">
+          <p>採用という「人」の力と、生成AIという「技術」の力。この2つを深く理解し、掛け合わせることで、クライアント企業が秘める可能性を最大限に引き出すことが私たちの使命です。</p>
+          <p>どんな課題にも正面から向き合い、データと経験に基づいた具体的な解決策を共に見つけ出します。単なる提案で終わらず、成果が出るまで伴走し続けます。</p>
+        </div>
+        <div style="margin-top:2.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="about.html" class="btn-outline">会社概要 →</a>
+          <a href="contact.html" class="btn-ghost">無料相談</a>
+        </div>
+      </div>
+    </div>
+    <div class="statement-bg-text" aria-hidden="true">MISSION</div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES V2
+       ============================================================ -->
+  <section id="services" class="section">
+    <div class="section-header reveal">
+      <div class="section-label">Our Services</div>
+      <h2 class="section-title">2つの専門領域で<br>貴社を支援します</h2>
+      <p class="section-subtitle">採用という「人」の問題と、AIという「技術」の問題。どちらも深く理解するプロフェッショナルが伴走します。</p>
+    </div>
+    <div class="svc-v2-wrap">
+      <div class="svc-v2-list">
+
+        <a href="service-recruitment.html" class="svc-v2-item reveal">
+          <div class="svc-v2-meta">
+            <span class="svc-v2-seq">SERVICE 01</span>
+            <span class="svc-v2-name-en">Recruitment<br>Consulting</span>
+          </div>
+          <div class="svc-v2-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <div class="svc-v2-body">
+            <div class="svc-v2-title">採用コンサルティング</div>
+            <p class="svc-v2-desc">採用要件の定義から媒体選定、選考プロセス設計、内定者フォローまで、採用活動の全フェーズをトータルで支援。戦略立案から実行まで一貫して伴走します。</p>
+            <div class="svc-v2-tags">
+              <span class="svc-v2-tag">採用戦略</span>
+              <span class="svc-v2-tag">人材評価</span>
+              <span class="svc-v2-tag">組織設計</span>
+              <span class="svc-v2-tag">ブランディング</span>
+            </div>
+          </div>
+          <div class="svc-v2-arrow">→</div>
+        </a>
+
+        <a href="service-ai.html" class="svc-v2-item blue reveal reveal-delay-1">
+          <div class="svc-v2-meta">
+            <span class="svc-v2-seq">SERVICE 02</span>
+            <span class="svc-v2-name-en">Generative AI<br>Consulting</span>
+          </div>
+          <div class="svc-v2-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div class="svc-v2-body">
+            <div class="svc-v2-title">生成AI活用支援</div>
+            <p class="svc-v2-desc">ChatGPT・Claude・Geminiなど最新の生成AIを業務に組み込み、生産性と競争力を飛躍的に向上させます。戦略立案から社内展開まで包括的にサポート。</p>
+            <div class="svc-v2-tags">
+              <span class="svc-v2-tag">戦略立案</span>
+              <span class="svc-v2-tag">AI研修</span>
+              <span class="svc-v2-tag">業務改革</span>
+              <span class="svc-v2-tag">ROI改善</span>
+            </div>
+          </div>
+          <div class="svc-v2-arrow">→</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY OPEN BASE
+       ============================================================ -->
+  <section class="why-section">
+    <div class="why-layout">
+
+      <div class="why-intro reveal">
+        <div class="section-label">Why Open base</div>
+        <h2 class="why-heading">選ばれる<br>6つの<br>理由</h2>
+        <p class="why-lead">業界知識と最新技術を兼ね備えた専門家チームが、貴社固有の課題に対してオーダーメイドのソリューションを提供します。</p>
+        <a href="contact.html" class="btn-outline why-cta">無料相談はこちら</a>
+      </div>
+
+      <div class="why-manifest">
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">01</div>
+          <div class="why-body">
+            <div class="why-title">深い業界理解</div>
+            <p class="why-desc">IT・製造・金融など多様な業界での支援実績を持ち、業界特有の課題を熟知しています。</p>
+          </div>
+          <div class="why-kw">Industry</div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">02</div>
+          <div class="why-body">
+            <div class="why-title">スピーディな対応</div>
+            <p class="why-desc">お問い合わせから24時間以内に返信。迅速な意思決定と実行力でビジネスを加速します。</p>
+          </div>
+          <div class="why-kw">Speed</div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">03</div>
+          <div class="why-body">
+            <div class="why-title">データドリブン</div>
+            <p class="why-desc">感覚ではなくデータに基づいた戦略立案。KPIの設定から効果測定まで一貫して管理します。</p>
+          </div>
+          <div class="why-kw">Analytics</div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">04</div>
+          <div class="why-body">
+            <div class="why-title">長期伴走型</div>
+            <p class="why-desc">単発の提案で終わらず、実行フェーズから効果検証まで継続的にサポートします。</p>
+          </div>
+          <div class="why-kw">Partnership</div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">05</div>
+          <div class="why-body">
+            <div class="why-title">最新知識の習得</div>
+            <p class="why-desc">急速に進化するAI技術について常に最前線の知識をキャッチアップし、最適解を提供します。</p>
+          </div>
+          <div class="why-kw">Expertise</div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-n" aria-hidden="true">06</div>
+          <div class="why-body">
+            <div class="why-title">高い機密保持</div>
+            <p class="why-desc">厳格な情報管理体制のもと、貴社の機密情報を安全に取り扱います。NDA締結も対応可能です。</p>
+          </div>
+          <div class="why-kw">Security</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VOICE CAROUSEL
+       ============================================================ -->
+  <div class="voice-band">
+    <div class="voice-band-header">
+      <div class="voice-band-label">Client Voices</div>
+      <div class="voice-band-title">お客様の声</div>
+    </div>
+    <div class="voice-track-wrap">
+      <div class="voice-track">
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">エンジニア採用で半年かかっていた選考を、採用基準の再定義とスカウト文の最適化によって2ヶ月に短縮できました。内定承諾率も23ポイント改善しています。</p>
+          <div class="voice-card-tag">IT企業（従業員60名）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">月20時間かかっていた報告書作成がAI活用で3時間に。現場パートスタッフを含む40名全員が日常業務でAIを使えるようになりました。</p>
+          <div class="voice-card-tag">製造業（従業員200名）/ 生成AI活用支援</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">シリーズA直後に年間20名採用を達成。3ヶ月以内の早期退職がゼロになり、採用コストも前年比40%削減できました。採用の型が会社に残ったことが何より大きい。</p>
+          <div class="voice-card-tag">スタートアップ（シリーズA）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">コンプライアンス部門での試験導入から6ヶ月で全社15部署に展開。文書チェック業務の工数が65%削減され、コア業務への集中時間が大幅に増えました。</p>
+          <div class="voice-card-tag">金融業（従業員300名）/ 生成AI活用支援</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">求人掲載から応募まで平均45日かかっていたのが15日に。採用ページと求職者向けメッセージの見直しで、応募者の質と量が同時に改善しました。</p>
+          <div class="voice-card-tag">小売業（店舗数30店）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">電子カルテ補助から始まり、議事録・研修資料作成にもAIを展開。医師・事務・看護師それぞれの業務に合わせたプロンプト設計が効果的でした。</p>
+          <div class="voice-card-tag">医療法人（クリニック3院）/ 生成AI活用支援</div>
+        </div>
+        <!-- duplicate for infinite loop -->
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">エンジニア採用で半年かかっていた選考を、採用基準の再定義とスカウト文の最適化によって2ヶ月に短縮できました。内定承諾率も23ポイント改善しています。</p>
+          <div class="voice-card-tag">IT企業（従業員60名）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">月20時間かかっていた報告書作成がAI活用で3時間に。現場パートスタッフを含む40名全員が日常業務でAIを使えるようになりました。</p>
+          <div class="voice-card-tag">製造業（従業員200名）/ 生成AI活用支援</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">シリーズA直後に年間20名採用を達成。3ヶ月以内の早期退職がゼロになり、採用コストも前年比40%削減できました。採用の型が会社に残ったことが何より大きい。</p>
+          <div class="voice-card-tag">スタートアップ（シリーズA）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">コンプライアンス部門での試験導入から6ヶ月で全社15部署に展開。文書チェック業務の工数が65%削減され、コア業務への集中時間が大幅に増えました。</p>
+          <div class="voice-card-tag">金融業（従業員300名）/ 生成AI活用支援</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">求人掲載から応募まで平均45日かかっていたのが15日に。採用ページと求職者向けメッセージの見直しで、応募者の質と量が同時に改善しました。</p>
+          <div class="voice-card-tag">小売業（店舗数30店）/ 採用コンサルティング</div>
+        </div>
+        <div class="voice-card">
+          <div class="voice-card-mark">&ldquo;</div>
+          <p class="voice-card-text">電子カルテ補助から始まり、議事録・研修資料作成にもAIを展開。医師・事務・看護師それぞれの業務に合わせたプロンプト設計が効果的でした。</p>
+          <div class="voice-card-tag">医療法人（クリニック3院）/ 生成AI活用支援</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       PROCESS
+       ============================================================ -->
+  <section class="section">
+    <div class="section-header centered reveal">
+      <div class="section-label">Our Process</div>
+      <h2 class="section-title">支援の流れ</h2>
+      <p class="section-subtitle">初回相談から成果創出まで、4つのステップで確実に進めます。</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="process-num">01</div>
+        <div class="process-title">ヒアリング</div>
+        <p class="process-desc">現状の課題・目標・リソースを丁寧にヒアリングし、貴社の状況を深く理解します。</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="process-num">02</div>
+        <div class="process-title">戦略立案</div>
+        <p class="process-desc">ヒアリング結果をもとに、貴社に最適化した具体的な戦略と実行計画を策定します。</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="process-num">03</div>
+        <div class="process-title">実行・伴走</div>
+        <p class="process-desc">計画の実行フェーズでも継続的にサポート。課題が生じた際は即座に対応します。</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="process-num">04</div>
+        <div class="process-title">効果検証</div>
+        <p class="process-desc">設定したKPIをもとに効果を測定・分析し、継続的な改善サイクルを構築します。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+       ============================================================ -->
+  <section class="section faq-section">
+    <div class="section-header centered reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">よくある質問</h2>
+      <p class="section-subtitle">ご検討中の方からよくいただくご質問にお答えします。</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span>どのような企業規模・業種が対象ですか？</span>
+          <span class="faq-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">スタートアップから上場企業まで、従業員10名〜500名規模の企業を中心に支援しています。IT、製造、金融、医療、小売など業種は問いません。まずはお気軽にご相談ください。</div>
+        </div>
+      </div>
+      <div class="faq-item reveal reveal-delay-1">
+        <button class="faq-question" aria-expanded="false">
+          <span>費用の目安を教えてください。</span>
+          <span class="faq-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">支援内容・規模・期間によって異なるため、一律の料金表はご用意しておりません。初回相談（無料）でご状況をお伺いした上で、最適なプランをご提案します。費用が気になる段階でも遠慮なくご連絡ください。</div>
+        </div>
+      </div>
+      <div class="faq-item reveal reveal-delay-2">
+        <button class="faq-question" aria-expanded="false">
+          <span>採用コンサルティングとAI活用支援を同時に依頼できますか？</span>
+          <span class="faq-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">はい、可能です。実際に両方をセットでご依頼いただくケースも多く、採用業務にAIを組み込む形でより高い相乗効果が得られます。セット支援の場合はご相談の上、最適なプランをご提案します。</div>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          <span>契約期間はどのくらいですか？</span>
+          <span class="faq-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">プロジェクト内容によりますが、通常は3〜6ヶ月単位でお受けしています。成果が出るまで伴走したいというご要望には、継続的な月次契約でも対応可能です。</div>
+        </div>
+      </div>
+      <div class="faq-item reveal reveal-delay-1">
+        <button class="faq-question" aria-expanded="false">
+          <span>相談内容が社外に漏れないか心配です。</span>
+          <span class="faq-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">ご安心ください。全てのクライアント様とNDA（秘密保持契約）を締結した上で支援を開始します。情報管理を最優先事項として取り組んでいますので、機密性の高いご相談も安心してお任せください。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA
+       ============================================================ -->
+  <section class="cta-section">
+    <div class="cta-deco-grid" aria-hidden="true"></div>
+    <div class="cta-inner">
+      <div class="section-label">Next Step</div>
+      <h2 class="cta-title reveal">貴社の状況に合わせた<br>次のステップを。</h2>
+      <p class="cta-desc reveal">まだ検討段階でも、すでに課題が明確でも。それぞれの状況に合った入口があります。</p>
+      <div class="cta-funnel reveal">
+        <div class="cta-funnel-item">
+          <div class="cta-funnel-step">Step 01</div>
+          <div class="cta-funnel-label">まずは知りたい</div>
+          <p class="cta-funnel-desc">サービス内容や事例をじっくり確認してから判断したい方へ。</p>
+          <a href="about.html" class="cta-funnel-btn">会社・実績を見る →</a>
+        </div>
+        <div class="cta-funnel-item cta-funnel-mid">
+          <div class="cta-funnel-step">Step 02</div>
+          <div class="cta-funnel-label">課題を整理したい</div>
+          <p class="cta-funnel-desc">採用やAI活用でどんな支援が受けられるか、具体的に知りたい方へ。</p>
+          <a href="service-recruitment.html" class="cta-funnel-btn">サービス詳細を見る →</a>
+        </div>
+        <div class="cta-funnel-item cta-funnel-primary">
+          <div class="cta-funnel-step">Step 03</div>
+          <div class="cta-funnel-label">相談準備完了</div>
+          <p class="cta-funnel-desc">課題が明確で、専門家に直接話を聞いてほしい方へ。</p>
+          <a href="contact.html" class="cta-funnel-btn cta-funnel-btn-primary">無料相談を申し込む →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <img src="Gemini_Generated_Image_zf1c2yzf1c2yzf1c.png" alt="Open base" class="footer-logo-img" />
+        <p class="footer-tagline">人と技術で、ビジネスの可能性を解き放つ。</p><div class="footer-sns"><a href="#" class="footer-sns-link" aria-label="X (Twitter)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.84L2.254 2.25h6.865l4.265 5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a href="#" class="footer-sns-link" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></div>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <ul class="footer-links">
+          <li><a href="service-recruitment.html">採用コンサルティング</a></li>
+          <li><a href="service-ai.html">生成AI活用支援</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <ul class="footer-links">
+          <li><a href="about.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-address">
+          <p>〒812-0013</p>
+          <p>福岡県福岡市博多区<br>博多駅東1丁目1-33<br>はかた近代ビル7階K1-9</p>
+          <p style="margin-top:0.8rem">info@open-base.co.jp</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2024 Open base 合同会社. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="tokutei.html">特定商取引法に基づく表記</a>
+      </div>
+    </div>
+  </footer>
+  <a href="#" id="back-to-top" aria-label="トップへ">↑</a>
+  <script src="js/main.js"></script>
+</body>
+</html>

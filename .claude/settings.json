@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"c:/Users/fgy33/my-app/Open_base/index.html\":*)",
+      "Bash(python3 -c \":*)",
+      "WebFetch(domain:acesinc.co.jp)"
+    ]
+  }
+}
