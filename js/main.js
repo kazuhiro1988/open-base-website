@@ -5,23 +5,7 @@
 (function () {
   'use strict';
 
-  /* ===== 0. モバイル・低速回線では動画を読み込まない ===== */
-  const isMobile = window.innerWidth < 768;
-  const isSlowConnection = navigator.connection &&
-    (navigator.connection.saveData || ['slow-2g','2g','3g'].includes(navigator.connection.effectiveType));
-
-  if (isMobile || isSlowConnection) {
-    document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('video').forEach((v) => {
-        v.pause();
-        v.removeAttribute('autoplay');
-        v.querySelectorAll('source').forEach(s => s.removeAttribute('src'));
-        v.load();
-      });
-    });
-  }
-
-  /* ===== prefers-reduced-motion: 動画を停止 ===== */
+  /* ===== 0. prefers-reduced-motion: 動画を停止 ===== */
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('video').forEach((v) => {
