@@ -3385,7 +3385,7 @@ footer {
 
 .takeover-quote {
   font-family: 'LINE Seed JP', sans-serif;
-  font-size: clamp(1.65rem, 6vw, 5.2rem);
+  font-size: clamp(1.42rem, 6vw, 5.2rem);
   font-weight: 800;
   line-height: 1.45;
   color: var(--text-primary);
