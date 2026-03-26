@@ -50,6 +50,11 @@
     setTimeout(callback, 500);
   }
 
+  // 戻るボタンでbfcacheから復元された場合もオーバーレイを消す
+  window.addEventListener('pageshow', (e) => {
+    if (e.persisted) fadeOutTransition();
+  });
+
   document.addEventListener('DOMContentLoaded', () => {
     // Fade out on initial load
     setTimeout(fadeOutTransition, 100);
